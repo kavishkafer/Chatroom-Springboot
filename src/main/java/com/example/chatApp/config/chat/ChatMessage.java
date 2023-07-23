@@ -12,6 +12,23 @@ public class ChatMessage {
     private String sender;
     private MessageType type;
 
+    public int getSenderId() {
+        return 0;
+    }
+
+    public int getReceiverId() {
+        return 0;
+    }
+
+    public String getTime() {
+        return null;
+    }
+
+    public String getDate() {
+        return null;
+    }
+
+
     public enum MessageType {
         CHAT, JOIN, LEAVE
     }
